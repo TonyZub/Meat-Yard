@@ -1,0 +1,9 @@
+
+body {
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+   }
+
+.parallax-container {
+      height: 300px;
+    }
