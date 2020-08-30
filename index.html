@@ -22,10 +22,31 @@
     <script type="text/javascript" async="" src="mainJS.js"></script>
 
 </head>
-<body onLoad="window.scroll(0, 0)"> 
+<body> 
 
-    <div class="container z-depth-5" style="height: 100%; width: 100%">
-       <div class="slider" style="margin-top: 20px">
+<div class="navbar-fixed">
+    <nav class="nav-container z-depth-0 black">
+      <div class="nav-wrapper" style="width: 70%; margin: 0 auto">
+      <a href="#" class="brand-logo center">
+      	<img src="images/logo3.png">
+      </a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#aboutUs">О нас</a></li>
+        <li><a href="#products">Продукция</a></li>
+        <li><a href="#partners">Партнеры</a></li>
+        <li><a href="#shipping">Доставка</a></li>
+      </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#contacts">Контакты и реквизиты</a></li>
+        <li><a href="tel:+7 (923) 324-84-36">+7 (923) 324-84-36</a></li>
+      </ul>
+    </div>
+    </nav>
+ </div>
+
+    <div class="container" style="height: 100%; width: 100%">
+       <div class="backgroundForSlider white" style="padding-top: 1%; padding-bottom: 2%">
+       	<div class="slider" style="width: 98%; margin: 0 auto">
         <ul class="slides">
             <li> <img src="images/topViewMain10.jpg">
                 <!-- random image -->
@@ -47,33 +68,98 @@
             </li>
         </ul>
         </div>
+                </div>
         <div class="devider" style="height: 100px">
-            
         </div>
-        <div class="section white">
+
+        <div id="aboutUs" class="section white scrollspy">
             <div class="row container">
-                <h2 class="header">Заголовок</h2>
-                <p class="grey-text text-darken-3 lighten-3">Тут находится текст для описания деятельности компании, реализуемого товара, а также еще чего-нибудь очень важного и полезного. Сюда можно вставить все что угодно, не только текст, так что стоит подумать.</p>
+                <h2 class="header">О НАС</h2>
+                <p class="grey-text text-darken-3">Мы обеспечиваем наших клиентов качественным мясосырьем по выгодным ценам</p>
+                <p class="grey-text text-darken-3 lighten-3">Сотрудничаем с ведущими производственными и перерабатывающими предприятиями мясной отрасли по СФО. Мясо Говядины поставляем из Новосибирской области - это экологически чистый, натуральный, фермерский продукт. Наши производственные мощности позволяют производить обвалку мяса, под Ваши требования.Сотрудники нашего отдела закупа, очень тщательно отслеживают качество продукции, постоянно проводя выездные аудиты сельскохозяйственных предприятий партнеров.</p>
             </div>
         </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="images/head3.jpg"></div>
+            <div class="parallax"><img src="images/new/fresh-meat1.jpg"></div>
         </div>
-        <div class="section white">
+        <div id="products" class="section white scrollspy">
             <div class="row container">
-                <h2 class="header">Заголовок</h2>
-                <p class="grey-text text-darken-3 lighten-3">Тут находится текст для описания деятельности компании, реализуемого товара, а также еще чего-нибудь очень важного и полезного. Сюда можно вставить все что угодно, не только текст, так что стоит подумать.</p>
+                <h2 class="header">ПРОДУКЦИЯ</h2>
+                <p class="grey-text text-darken-3 lighten-3">Наша компания реализует мясо говядины всех категорий, а также полный ассортимент субпродуктов.
+                </p>
             </div>
         </div>
+        <div class="parallax-middle-container">
+            <div class="parallax-middle">
+            	<div class="carousel carousel-slider">
+				    <a class="carousel-item" href="#one!"><img src="images/photos/1.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/6.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/7.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/8.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/9.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/10.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/11.jpg"></a>
+				    <a class="carousel-item" href="#one!"><img src="images/photos/12.jpg"></a>
+			  	</div>
+            </div>
+        </div>
+        <div id="partners" class="section white scrollspy">
+            <div class="row container">
+                <h2 class="header">ПАРТНЕРЫ</h2>
+                <p class="grey-text text-darken-3 lighten-3">Мы работаем только с надежными и проверенными компаниями:.</p>
+            </div>
+        </div>   
         <div class="parallax-container">
-            <div class="parallax"><img src="images/head3.jpg"></div>
+            <div class="parallax"><img src="images/contragents.jpg"></div>
         </div>
-        <div class="section white">
+        <div id="shipping" class="section white scrollspy">
             <div class="row container">
-                <h2 class="header">Заголовок</h2>
-                <p class="grey-text text-darken-3 lighten-3">Тут находится текст для описания деятельности компании, реализуемого товара, а также еще чего-нибудь очень важного и полезного. Сюда можно вставить все что угодно, не только текст, так что стоит подумать.</p>
+                <h2 class="header">ДОСТАВКА</h2>
+                <p class="grey-text text-darken-3 lighten-3">Доставка осуществляется по всей территории РФ.</p>
             </div>
+        </div>   
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/map.jpg"></div>
         </div>
+        <div class="section white scrollspy">
+            <div class="row container">
+            </div>
+        </div> 
+
+        <div class="devider" style="height: 100px">
+        </div>
+        <div class="section white scrollspy">
+            <div class="row container">
+            </div>
+        </div> 
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0edf547914e761f321a264dc5a87e77707a3154dfd368537bd7f5d40257e504c&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+        <footer id="contacts" class="page-footer grey lighten-3 scrollspy">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text">МЯСНОЙ ДВОР</h5>
+                <p class="black-text text-lighten-2">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="black-text">Links</h5>
+                <ul>
+                  <li><a class="black-text text-lighten-2" href="#!">Link 1</a></li>
+                  <li><a class="black-text text-lighten-2" href="#!">Link 2</a></li>
+                  <li><a class="black-text text-lighten-2" href="#!">Link 3</a></li>
+                  <li><a class="black-text text-lighten-2" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container" style="color: black">
+            © 2020 Все права защищены
+            <a class="black-text text-lighten-3 right" href="policy.html">Политика конфиденциальности</a>
+            </div>
+          </div>
+        </footer>
+
     </div>
     
     <script>       
@@ -88,7 +174,20 @@
             var instances = M.Slider.init(elems, {});
           })
 
-        window.scroll(0,0);
+        document.addEventListener('DOMContentLoaded', function() {
+		    var elems = document.querySelectorAll('.pushpin');
+		    var instances = M.Pushpin.init(elems, {offset: 120});
+		  });
+
+        document.addEventListener('DOMContentLoaded', function() {
+		    var elems = document.querySelectorAll('.scrollspy');
+		    var instances = M.ScrollSpy.init(elems, {});
+		  });
+
+        document.addEventListener('DOMContentLoaded', function() {
+		    var elems = document.querySelectorAll('.carousel');
+		    var instances = M.Carousel.init(elems, {fullWidth: true, indicators: true});
+		  });
 
     </script>
     
