@@ -12,3 +12,22 @@ body {
  	background-image: url(images/backHeader.png);
 }
 
+.particulars{
+	background-image: url(images/modalBack.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 60px;
+}
+
+.item{
+	margin: 0 auto;
+	text-align: center;
+	border-color: black;
+	border-style: double;
+}
+
+.partner{
+	height: 200px;
+	margin: 0 auto;
+}
+
