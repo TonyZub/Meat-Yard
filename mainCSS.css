@@ -9,11 +9,11 @@ body {
  }
 
 .nav-container{
- 	background-image: url(images/backHeader.png);
+ 	background-image: url(images/backHeader.jpg);
 }
 
 .particulars{
-	background-image: url(images/modalBack.png);
+	background-image: url(images/modalBack.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 60px;
