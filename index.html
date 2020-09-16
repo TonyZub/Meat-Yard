@@ -52,25 +52,30 @@
 		        <ul class="slides">
 		            <li> <img src="images/topViewMain10.jpg">
 		                <div class="caption center-align">
-		                	<h2 style="color: black">МЯСНОЙ ДВОР</h2>
-		                    <h5 class="black-text">Отличное мясо по хорошей цене</h5> 
+		                	<h2 style="color: black; font-weight: 600">МЯСНОЙ ДВОР</h2>
+		                    <h5 class="black-text text-black" style="font-weight: 500">Цена достойная качества</h5> 
 		                </div>
 		            </li>
 		            <li> <img src="images/topView1.jpg">
 		                <div class="caption left-align">
-		                    <h3>Вставка слева</h3>
-		                    <h5 class="light grey-text text-lighten-3">А тут слоган поменьше.</h5> </div>
+		                    <h3>Отличное качество</h3>
+		                    <h5 class="light grey-text text-lighten-3">Только свежие мясо и субпродукты</h5> 
+		                    <h5 class="light grey-text text-lighten-3">Натуральное сырье</h5>
+		                </div>
 		            </li>
 		            <li> <img src="images/topView2.jpg">
 		                <div class="caption right-align">
-		                    <h3>Вставка справа</h3>
-		                    <h5 class="light grey-text text-lighten-3">А тут слоган поменьше.</h5> </div>
+		                    <h3>Хорошая цена</h3>
+		                    <h5 class="light grey-text text-lighten-3">Индивидуальные предложения</h5> 
+		                    <h5 class="light grey-text text-lighten-3">Гибкая ценовая политика</h5>
+		                    <h5 class="light grey-text text-lighten-3">Работа с НДС и без НДС</h5>
+		                </div>
 		            </li>
 		        </ul>
 	        </div>
     	</div>
 
-        <div id="aboutUs" class="section white scrollspy" style="margin-top: 50px; background-image: url(images/new/raw-steak-on-white-paper-little.jpg)">
+        <div id="aboutUs" class="section white scrollspy" style="margin-top: 50px; background-image: url(images/raw-steak-on-white-paper-little.jpg)">
             <div class="row container">
                 <h2 class="header">О НАС</h2>
                 <div class="grey-text text-darken-3 lighten-1 col 9 s9">
@@ -86,7 +91,7 @@
         </div>
         <div class="parallax-container">
             <div class="parallax">
-            	<img src="images/new/fresh-meat1.jpg"> 
+            	<img src="images/fresh-meat1.jpg"> 
             </div>
         </div>
         <div id="products" class="section grey lighten-2 scrollspy">
@@ -97,7 +102,7 @@
                 <div class="col 4 s4">
 	              <div class="card small">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/new/beef.jpg">
+				      <img class="activator" src="images/beef.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4">Мясо говядина<i class="material-icons right"></i></span>
@@ -115,7 +120,7 @@
 				<div class="col 4 offset-4 s4">
 	              <div class="card small">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/new/veal.jpg">
+				      <img class="activator" src="images/veal.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4">Мясо телятина<i class="material-icons right"></i></span>
@@ -133,7 +138,7 @@
 				<div class="col 4 offset-8 s4">
 	              <div class="card small">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/new/liver.jpg">
+				      <img class="activator" src="images/liver.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4">Говяжьи субпродукты<i class="material-icons right"></i></span>
@@ -158,20 +163,20 @@
                 <div class="row">
 					<div class="col 4 s4">
 						<div class="item z-depth-2">
-							<img class="materialboxed" src="https://meat-opt.ru/img/eac.jpg" alt="Сертификат" style="margin: 0 auto">
+							<img class="materialboxed" src="images/sert2.jpg" alt="Сертификат" style="margin: 0 auto">
 							<p>Декларация о соотвествии EAC</p>
 						</div>
 					</div>
 					<div class="col 4 offset-4 s4">
 						<div class="item z-depth-2">
-							<img class="materialboxed" src="https://meat-opt.ru/img/eac2.jpg" alt="Сертификат" style="margin: 0 auto">
+							<img class="materialboxed" src="images/sert3.jpg" alt="Сертификат" style="margin: 0 auto">
 							<p>Декларация о соотвествии EAC</p>
 						</div>
 					</div>
 					<div class="col 4 offset-8 s4">
 						<div class="item z-depth-2">
-							<img class="materialboxed" src="https://meat-opt.ru/img/sert-egg.jpg" alt="Сертификат" style="margin: 0 auto">
-							<p>Сертификат</p>
+							<img class="materialboxed" src="images/sert1.jpg" alt="Сертификат" style="margin: 0 auto">
+							<p>Сертификат соответствия</p>
 						</div>
 					</div>
 				</div>
@@ -468,7 +473,6 @@
         document.addEventListener('DOMContentLoaded', function() {
 		    var elems = document.querySelectorAll('.modal');
 		    var instances = M.Modal.init(elems, {});
-
 		    var preloader = M.Modal.init(document.getElementById("modalPreloader"), {dismissible: false});
 		  });
 
@@ -486,7 +490,7 @@
 
         	if(clientName.checkValidity() && clientPhone.value.length == PHONE_LENGTH && clientEmail.checkValidity()){
         		ShowPreloader(true);
-        		SendPrice(GetCodedString(clientName.value), phoneNum, clientEmail.value);
+        		SendPrice(b64EncodeUnicode(clientName.value), phoneNum, clientEmail.value);
         	}
         	else{
         		M.toast({html: 'Неверно введены данные!'});
@@ -503,7 +507,7 @@
 
         	if(clientName.checkValidity() && clientPhone.value.length == PHONE_LENGTH && clientEmail.checkValidity() && clientMessage.value.length > 0){
         		ShowPreloader(true);
-        		SendMessage(GetCodedString(clientName.value), phoneNum, clientEmail.value, GetCodedString(clientMessage.value));
+        		SendMessage(b64EncodeUnicode(clientName.value), phoneNum, clientEmail.value, b64EncodeUnicode(clientMessage.value));
         	}
         	else{
         		M.toast({html: 'Неверно введены данные!'});
@@ -551,9 +555,9 @@
         	}
 	    }
 
-        function GetCodedString(message){
-        	return message.toString().replace("/ /gi", "_");
-        }
+	    function b64EncodeUnicode(str) {
+	    	return encodeURIComponent(str);
+	    };
 
     </script>
     
